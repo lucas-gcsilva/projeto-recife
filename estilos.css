@@ -1,0 +1,472 @@
+body {
+    background: rgb(4,3,5);
+background: linear-gradient(90deg, rgba(4,3,5,1) 0%, rgba(168,167,48,0.31416316526610644) 0%, rgba(180,180,51,1) 14%, rgba(248,252,69,0.7231267507002801) 100%);
+    color: blue;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    margin: 10PX;
+}
+
+
+.marco-zero {
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+}
+
+
+.ul-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;    
+}
+a:hover {
+    color: orangered;
+}
+
+.ul-marco-zero {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.ul-recife-antigo {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.projeto-proz {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 4px;
+    color: blue;
+}
+
+.pontos-turisticos {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.div-marco-zero {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.praca-marco-zero {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-cont-praca {
+    display: table;
+}
+
+.div-img-praca {
+    display: table-cell;
+    float: left;
+}
+
+.div-texto-praca {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -20;
+    margin-left: 50px;
+}
+
+.img-marco-zero {
+    width: 500px;
+}
+
+
+.simbolo-marco-zero {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-cont-simbolo {
+    display: table;
+}
+
+.div-img-simbolo {
+    display: table;
+    float: left;
+}
+
+.div-texto-simbolo {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -20;
+    margin-left: 50px;
+}
+
+.img-simbolo {
+    width: 500px;
+}
+
+.vista-marco-zero {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-cont-vista {
+    display: table;
+}
+
+.div-img-vista {
+    display: table;
+    float: left;
+}
+
+.div-texto-vista {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -20;
+    margin-left: 50px;
+}
+
+.img-vista {
+    width: 500px;
+}
+
+
+.div-footer {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo-face {
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.logo-insta {
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.logo-link {
+    width: 20px;
+    border-radius: 50%;
+}
+
+.div-footer-logo {
+    display: flex;
+    justify-content: center;
+    margin: 10PX;
+}
+
+.imagens-texto {
+    display: flex;
+    justify-content: center;
+    margin: 10PX;
+}
+
+.sobre-marco-zero {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 4px;
+    color: blue;
+}
+
+
+
+.div-marco-dois {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.mais-sobre {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div-sobre-um {
+    display: table;
+}
+
+.div-img-um {
+    display: table-cell;
+    float: left;
+}
+
+.div-texto-um {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px;
+
+}
+
+.img-um {
+    width: 500px;
+}
+
+.div-sobre-dois {
+    display: table;    
+}
+
+.div-img-dois {
+    display: table;
+    float: left;
+}
+
+.div-texto-dois {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px;
+}
+
+.img-dois {
+    width: 500px;
+}
+
+.div-sobre-tres {
+    display: table;
+}
+
+.div-img-tres {
+    display: table;
+    float: left;
+}
+
+.div-texto-tres {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px;
+}
+
+.img-tres {
+    width: 500px;
+}
+
+.titulo-marco-zero {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.outros-pontos {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 4px;
+    color: blue;
+}
+
+.conhecendo-recife {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    padding: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div-recife-antigo {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.armazem {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-armazem {
+    display: table;
+}
+
+.div-img-armazem {
+    display: table-cell;
+    float: left;
+}
+
+.div-texto-armazem {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px;
+}
+
+.img-armazem {
+    width: 500px;
+}
+
+.artesanato {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-artesanato {
+    display: table;
+}
+
+.div-img-artesanato {
+    display: table-cell;
+    float: left;
+}
+
+.div-texto-artesanato {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px;
+}
+
+.img-artesanato {
+    width: 500px;
+}
+
+.titulo-historia {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 4px;
+    color: blue;
+}
+
+.sobre-recife-antigo {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    padding: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div-antigo {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.bairro-um {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.div-bairro-um {
+    display: table;
+}
+
+.div-cont-um {
+    display: table-cell;
+    float: left;
+}
+
+.texto-bairro-um {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px;
+}
+
+.um {
+    width: 500px;
+}
+
+.bairro-dois {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-bairro-dois {
+    display: table;
+}
+
+.div-cont-dois {
+    display: table-cell;
+    float: left;
+}
+
+.texto-bairro-dois {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px; 
+}
+
+.dois {
+    width: 500px;
+}
+
+.bairro-tres {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.div-bairro-tres {
+    display: table;
+}
+
+.div-cont-tres {
+    display: table-cell;
+    float: left;
+}
+
+.texto-bairro-tres {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -0px;
+    margin-left: 50px; 
+}
+
+.tres {
+    width: 500px;
+}
